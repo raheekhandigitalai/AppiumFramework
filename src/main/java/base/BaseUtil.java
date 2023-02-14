@@ -18,7 +18,7 @@ public class BaseUtil {
     protected ThreadLocal<AppiumDriver> driver = new ThreadLocal<>();
     protected WebDriverWait wait;
 
-    private String ACCESS_KEY = "eyJ4cC51Ijo3MzU0MjQsInhwLnAiOjIsInhwLm0iOiJNVFUzT0RZd016ZzFOek16TVEiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE4OTM5NjM4NTcsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.GP0hK0o0j2WEKt-J0aXsVbu1tmt-PhWUryqluokszJk";
+    private String ACCESS_KEY = "";
     private String CLOUD_URL = "https://uscloud.experitest.com/wd/hub";
 
     public AppiumDriver getDriver() {
